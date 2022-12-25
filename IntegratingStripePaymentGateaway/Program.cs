@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-StripeConfiguration.SetApiKey("sk_test_51HEyq4DFIADOmeMXimnNmKEGicAseYSdCNgSXzg9sQ9x9uYHYdxwMSHk1PNiLgsd9BHAt1wQROoWZO2i8NUKRNfG00kzLbMdmK");
+StripeConfiguration.SetApiKey(newApiKey: "your api key");
 
 var app = builder.Build();
 
